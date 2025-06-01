@@ -1,0 +1,14 @@
+[package]
+name = "trademaxxing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.41"
+colored = "3.0.0"
+serde = "1.0.219"
+serde_json = "1.0.140"
+tungstenite = "0.26.2"
+ratatui = { version = "0.26.1", features = ["crossterm"] }
+crossterm = "0.27.0"
+rusqlite = { version = "0.30.0", features = ["bundled"] }
