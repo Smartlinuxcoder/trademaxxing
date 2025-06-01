@@ -2,6 +2,9 @@
 name = "trademaxxing"
 version = "0.1.0"
 edition = "2024"
+description = "https://rugplay.com trade tracker TUI!"
+license = "GPL-3.0"
+readme = "README.md"
 
 [dependencies]
 chrono = "0.4.41"
